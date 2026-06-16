@@ -16,5 +16,8 @@ def decimal_a_binario(n: int) -> str:
 
 # Bloque principal de prueba (main)
 if __name__ == "__main__":
-    # Imprime 1101 de la misma forma que el ejemplo de C++
-    print(decimal_a_binario(13))
+    # Le pedimos al usuario que ingrese un número entero
+    numero = int(input("Ingrese un numero decimal: "))
+    
+    # Llamamos a la función e imprimimos el resultado
+    print("En binario es:", decimal_a_binario(numero))
